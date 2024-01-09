@@ -1,0 +1,45 @@
+@import url("header.css");
+@import url("nav.css");
+@import url("main.css");
+@import url("footer.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+@font-face {
+  font-family: "arialMT";
+  src: url("../fonts/ARIALMT.ttf");
+}
+
+@font-face {
+  font-family: "openSans-Extrabold";
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("../fonts/Font\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "semibold";
+  src: url("../fonts/Altform SemiBold.ttf");
+}

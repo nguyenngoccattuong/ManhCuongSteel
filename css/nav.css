@@ -1,0 +1,43 @@
+nav {
+  background-color: black;
+}
+
+.nav__menu {
+  width: 75%;
+}
+
+.nav__menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav__menu ul li {
+  display: inline-block;
+}
+
+.nav__menu ul li.active a {
+  background-color: gray;
+}
+
+.nav__menu ul li a {
+  /* tắt gạch chân */
+  text-decoration: none;
+  color: white;
+  font-family: "regular";
+  font-size: 13px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.nav__menu ul li a:hover {
+  background-color: gray;
+}
+
+.nav__search {
+  width: 25%;
+  background-color: aqua;
+  color: white;
+}
+
+

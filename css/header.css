@@ -1,0 +1,48 @@
+header {
+}
+
+.header__top {
+  background-color: #3b84b0;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 13px;
+  font-family: "arialMT";
+}
+
+.header__bottom {
+  background-image: url("../img/bg_headerBottom.jpg");
+  background-size: cover;
+  padding: 15px 0;
+}
+
+.header__bottom h2 {
+  margin-top: 0;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+  font-size: 35px;
+  font-family: "openSans-Extrabold";
+  text-shadow: 0 1px 2px black;
+}
+
+.headerBottom__info {
+}
+
+.headerBottom__info ul {
+  color: white;
+  font-size: 14px;
+  font-family: "openSans-Extrabold";
+  text-shadow: 0 1px 2px black;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.headerBottom__info ul li {
+  margin-bottom: 10px;
+}
+
+.headerBottom__info ul li:last-child {
+  margin-bottom: 0;
+}

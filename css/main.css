@@ -1,0 +1,6 @@
+@import url("main/main_left.css");
+@import url("main/main_right.css");
+
+main {
+  background-color: white;
+}
